@@ -9,7 +9,7 @@ package scientist;
  *
  * @author Estudiante
  */
-public class AdmMode extends Mode{
+public class AdmMode implements Mode{
     public void work(){
         System.out.println("administrate");
     }

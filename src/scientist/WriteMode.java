@@ -9,7 +9,7 @@ package scientist;
  *
  * @author Estudiante
  */
-public class WriteMode extends Mode{
+public class WriteMode implements Mode{
     public void work(){
         System.out.println("write");
     }

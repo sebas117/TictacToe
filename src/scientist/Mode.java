@@ -9,12 +9,9 @@ package scientist;
  *
  * @author Estudiante
  */
-public class Mode {
-    public void work(){
-        System.out.println("");
-    }
-    public void drink(){
-        System.out.println("");
-    }
+public interface Mode {
+    int x=2;
+    public void work();
+    public void drink();
     
 }
